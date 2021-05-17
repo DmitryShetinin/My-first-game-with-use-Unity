@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/unity/New Unity Project (1)/Packages/manifest.json
+    m_FilePath: C:/unity/zxc/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 637568205837701386
     m_Hash: 3086559985
   m_LockFileStatus:
-    m_FilePath: C:/unity/New Unity Project (1)/Packages/packages-lock.json
+    m_FilePath: C:/unity/zxc/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -122,7 +122,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -227,7 +227,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -310,7 +310,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -379,7 +379,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -467,7 +467,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -626,7 +626,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2579,7 +2579,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\unity\New Unity Project (1)\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\unity\zxc\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2627,5 +2627,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/unity/New Unity Project (1)/Packages
+m_ProjectPath: C:/unity/zxc/Packages
 m_EditorVersion: 2020.3.3f1 (76626098c1c4)
