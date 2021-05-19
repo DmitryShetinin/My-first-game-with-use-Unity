@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: "Assets/Scenes/\u0421\u0446\u0435\u043D\u0430 \u0433\u043B\u0430\u0432\u043D\u043E\u0433\u043E
+    \u043C\u0435\u043D\u044E/Exit.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
