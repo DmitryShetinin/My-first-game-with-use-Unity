@@ -5,7 +5,6 @@ using System.Threading;
 
 public class voshod : MonoBehaviour
 {
-    public Material zxc;
 
     void Start()
     {

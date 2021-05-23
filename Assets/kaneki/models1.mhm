@@ -1,0 +1,29 @@
+# Written by MakeHuman 1.2.0 final
+version v1.2.0
+camera 17.5 357.5 0.09370387689978382 0.4633849470528606 0.7784745150075271 1.3875000000000002
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 0.500000
+modifier macrodetails/Age 0.500000
+modifier macrodetails/African 0.084500
+modifier macrodetails/Asian 0.084500
+modifier macrodetails/Caucasian 0.831000
+modifier macrodetails-universal/Muscle 1.000000
+modifier macrodetails-universal/Weight 0.583000
+modifier macrodetails-height/Height 0.504000
+modifier macrodetails-proportions/BodyProportions 0.976000
+teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
+hair bob02 cd7840cf-b340-49e9-a505-8a5a22a86db2
+skeleton game_engine.mhskel
+eyebrows eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084
+eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
+pose tpose.bvh
+clothes shoes05 8ef14ff4-8547-419c-a495-17bab919568b
+clothes male_casualsuit05 02e8aa01-466f-4eb4-a375-e209cb4a77d8
+clothesHideFaces True
+skinMaterial skins/middleage_asian_female/middleage_asian_female.mhmat
+material bob02 cd7840cf-b340-49e9-a505-8a5a22a86db2 bob02.mhmat
+material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
+material eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084 eyebrow001.mhmat
+material Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d teeth/materials/teeth.mhmat
+subdivide False
