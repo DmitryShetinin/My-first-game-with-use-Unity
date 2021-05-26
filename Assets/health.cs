@@ -10,19 +10,22 @@ public class health : MonoBehaviour
     public AudioClip audio;
     public AudioSource t2;
     public  int health_of_bot = 150;
-    public Slider slider;  
+    public Slider slider;
+   
 
     void Start()
     {
-      
+       
     }
  
     // Update is called once per frame
     void Update()
     {
-      
+
+        slider.value = health_of_bot;
+        print(health_of_bot);
         if (this.GetComponent<health>().health_of_bot < 0)
-        {
+            {
             t2.PlayOneShot(audio);
             Destroy(this.gameObject);
         }
@@ -30,8 +33,6 @@ public class health : MonoBehaviour
         //  GetComponentInParent<health>().slider.value = this.GetComponent<health>().health_of_bot; 
 
 
-        slider.value = health_of_bot;
-        print(health_of_bot);
     }
 
 

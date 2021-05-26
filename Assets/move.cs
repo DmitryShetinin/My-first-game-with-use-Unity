@@ -7,20 +7,25 @@ using System.Threading.Tasks;
 public class move : MonoBehaviour
 {
     // Start is called before the first frame update
+    float y_camera;
     void Start()
     {
-        
+      
     }
-    bool c = true; 
+
+    public Camera camera; 
+
     bool end = true;
     int speed = 8; 
     public float speedRotation = 3f;
     public int jumpSpeed = 50;
-    public Slider slider;
+    public Slider slider;   
     bool z = true; 
     // Update is called once per frame
-    void Update()
+    void Update()   
     {
+
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             z = true; 

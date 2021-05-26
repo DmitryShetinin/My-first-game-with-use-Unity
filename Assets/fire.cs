@@ -9,6 +9,7 @@ public class fire : MonoBehaviour
    // public GameObject obj;
     public GameObject effect; 
     public Camera camera;
+    Transform transform_camera; 
     public AudioClip audio;
     public AudioSource t2;
     public Transform bulletSpawn;
@@ -16,9 +17,10 @@ public class fire : MonoBehaviour
 
     private LineRenderer line;
     protected LayerMask Layer;
+    private Transform caps; 
     void Start()
     {
-     
+    
     }
     //GameObject[] gameObjects = new GameObject[100];
     GameObject[] effects = new GameObject[100]; 
@@ -30,9 +32,11 @@ public class fire : MonoBehaviour
     void Update()
     {
 
- 
+            
         if (Input.GetMouseButton(0))
-        {    
+        {
+            caps = transform.parent;
+            caps.transform.rotation = Quaternion.Euler(caps.eulerAngles.x, camera.transform.eulerAngles.y, caps.eulerAngles.z);
             GameObject GameObj = GameObject.Find("Core(Clone)");
             Shoot();
             t2.PlayOneShot(audio);
@@ -42,8 +46,7 @@ public class fire : MonoBehaviour
             GameObj.transform.position = Vector3.MoveTowards(effects[i].transform.position, hit.point, 100f );
            // gameObjects[i].transform.position = Vector3.MoveTowards(gameObjects[i].transform.position, hit.point, 100f);
             print("Я попал " + hit.collider);
-            Vector3 forward = transform.TransformDirection(camera.transform.forward) * 10;
-            Debug.DrawRay(camera.transform.position, forward, Color.green, 5);
+          
             z = false;
         }
         if (z == false)
@@ -62,10 +65,6 @@ public class fire : MonoBehaviour
  
     void Shoot()            
     {
-
-
-        
-
         if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range))
         {
       
@@ -79,6 +78,5 @@ public class fire : MonoBehaviour
             }
           
         }
-  
     }
 }
